@@ -30,9 +30,9 @@ $GLOBALS["START_MESSAGE"] = <<<EOM
 
 ⚠️ <b><u>Benifit:</u></b>
 
-If You Have Telegram Movie Channel, Then Its Useful For Your Daily Usage, You can Send Me Your File & I'll Send You The Link Of Your File So Your Subscribers Can Get The File From Me & Your Channel Will Be Safe From COPYRIGHT INFRINGEMENT Issue.
+<b>If You Have Telegram Movie Channel, Then Its Useful For Your Daily Usage, You can Send Me Your File & I'll Send You The Link Of Your File So Your Subscribers Can Get The File From Me & Your Channel Will Be Safe From COPYRIGHT INFRINGEMENT Issue.</b>
 
-❌ <b><u>𝗣𝗢𝗥𝗡𝗢𝗚𝗥𝗔𝗣𝗛𝗜𝗖 𝗖𝗢𝗡𝗧𝗘𝗡𝗧𝗦 Are Strictly Prohibited & Will Get You Banned Permanently.</u></b>
+❌ <b><u>𝗣𝗢𝗥𝗡𝗢𝗚𝗥𝗔𝗣𝗛𝗜𝗖 𝗖𝗢𝗡𝗧𝗘𝗡𝗧𝗦</u></b> <b>Are Strictly Prohibited & Will Get You Banned Permanently.</b>
 EOM;
 $GLOBALS["CHECKING_MESSAGE"] = "🤔";
 require_once __DIR__ . "/../vendor/autoload.php";

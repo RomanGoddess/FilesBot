@@ -90,12 +90,13 @@ function get_link($bot, $chat_id, $message_id) {
         "message_id" => $message_id
     ));
 
-    $required_url = "<b>Here's Your Shareable Link 📃:</b> https://t.me/" . $GLOBALS["TG_BOT_USERNAME"] . "?start=" . "view" . "_" . $req_message->message_id . "_" . "tg";
+    $required_url = "<b>Here's Your Shareable Link 📃:</b> https://t.me/" . $GLOBALS["TG_BOT_USERNAME"] . "?start=" . "view" . "_" . $req_message->message_id . "_" . "tg"."\n\n<b>Subscribe To Our Premium Apps Channel</b> @Modzilla";
 
     $bot->api->editMessageText(array(
         "chat_id" => $chat_id,
         "message_id" => $status_message->message_id,
         "text" => $required_url,
+        "parse_mode" => "HTML",
         "disable_web_page_preview" => True
     ));
 }

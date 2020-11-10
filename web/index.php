@@ -61,11 +61,12 @@ if (isset($update["message"])) {
             get_link($bot, $chat_id, $message_id);
         }
         else if (in_array($chat_id, $GLOBALS["TG_AUTH_USERS"])) {
-            get_link($bot, $chat_id);
+            get_link($bot, $chat_id, $message_id);
         }
         else {
             $bot->api->deleteMessage(array(
                 "chat_id" => $chat_id,
+                "message_id" => $message_id
             ));
         }
     }
